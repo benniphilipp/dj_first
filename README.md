@@ -44,6 +44,7 @@ pip freeze > requirements.txt
 ```
 pip install django-crispy-forms
 ```
+INSTALLED_APPS == 'crispy_forms',
 ## Bilder Upload
 ```
 pip install pillow
