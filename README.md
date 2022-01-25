@@ -1,44 +1,44 @@
-#Erstelle virtualenv
+# 1.Erstelle virtualenv
 
 python3 -m venv env
 
-#virtualenv Aktivren
+# 2.virtualenv Aktivren
 
 . env/bin/activate
 
-#Install Django Aktuelle Version
+# 3.Install Django Aktuelle Version
 
 pip3 install Django
 
-#Oder Definierte Django Version
+# 3.1Oder Definierte Django Version
 
 pip3 install Django==2.2
 
-#Django Projekt erstellen
+# 4.Django Projekt erstellen
 
 django-admin startproject src
 
-#Erstelle eine Django App
+# 5.Erstelle eine Django App
 
 python manage.py startapp {{APP-NAME}}
 
-#Django Starten
+# 6.Django Starten
 
 python manage.py runserver
 
-#Datenbank migrieren
+# 7.Datenbank migrieren
 
 python3 manage.py makemigrations && python manage.py migrate
 
-#Django static files erstellen
+# 8.Django static files erstellen
 
 python manage.py collectstatic
 
-#Erstelle requirements.txt
+# 9.Erstelle requirements.txt
 
 pip freeze > requirements.txt
 
-#Bonus#
+##Bonus
 
 #Crispy forms
 
