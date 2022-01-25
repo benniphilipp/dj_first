@@ -27,23 +27,24 @@ python manage.py startapp {{APP-NAME}}
 python manage.py runserver
 ```
 ## Datenbank migrieren
-
+```
 python3 manage.py makemigrations && python manage.py migrate
-
+```
 ## Django static files erstellen
-
+```
 python manage.py collectstatic
-
+```
 ## Erstelle requirements.txt
-
+```
 pip freeze > requirements.txt
-
+```
 ##Bonus
 
 ## Crispy forms
-
+```
 pip install django-crispy-forms
-
+```
 ## Bilder Upload
-
+```
 pip install pillow
+```
