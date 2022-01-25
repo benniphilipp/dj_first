@@ -10,7 +10,7 @@ python3 -m venv env
 
 pip3 install Django
 
-### oder Definierte Django Version
+#Oder Definierte Django Version
 
 pip3 install Django==2.2
 
